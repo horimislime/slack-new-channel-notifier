@@ -1,0 +1,21 @@
+{
+    "name": "slack-new-channel-notifier",
+    "description": "Notifies when new channels are created.",
+    "keywords": ["slack", "chatbot"],
+    "repository": "https://github.com/horimislime/slack-new-channel-notifier",
+    "env": {
+        "SLACK_TOKEN": {
+            "description": "Slack bot token"
+        },
+        "SLACKAPP_CLIENT_ID": {
+            "description": "Slack app's client ID"
+        },
+        "SLACKAPP_CLIENT_SECRET" {
+            "description": "Slack app's client secret"
+        }
+    },
+    "addons": [
+        "rediscloud:30",
+        "scheduler"
+    ]
+}

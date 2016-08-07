@@ -1,0 +1,23 @@
+{
+    "name": "slack-new-channel-notifier",
+    "version": "0.0.1",
+    "description": "Notifies when new channels are created.",
+    "main": "bot.js",
+    "scripts": {
+        "start": "node bot.js"
+    },
+    "dependencies": {
+        "botkit": "howdyai/botkit",
+        "redis": "2.4.2"
+    },
+    "devDependencies": {
+        "node-notifier": "4.4.0",
+        "gulp": "3.9.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/horimislime/slack-new-channel-notifier.git"
+    },
+    "author": "horimislime@gmail.com",
+    "license": "MIT"
+}
