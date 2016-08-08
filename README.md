@@ -8,6 +8,8 @@ A Slack app(bot) that notifies when new public channels are created.
 - After you authenticate the app, a bot named `@channelnotify` will join your team.
 - Invite the bot to any public channel. It will post channel name which is newly created.
 
+<img width="292" alt="screen shot 2016-08-07 at 10 55 05 pm" src="https://cloud.githubusercontent.com/assets/264370/17484756/6a34a85c-5dc6-11e6-8939-ff973c23c2d3.png">
+
 ## Deploy by yourself
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
